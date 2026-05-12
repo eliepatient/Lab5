@@ -1,0 +1,12 @@
+assets/*
+*.docx
+*.pdf
+
+terraform.lock*
+terraform-test
+
+# The initial commit allows for the consolidation
+# of the policy templates. Once the policies are 
+# modified, they should not be submitted again
+# to protect your AWS privacy and security.
+aws/*.json
